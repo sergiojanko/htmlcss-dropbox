@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* Utils */
 
@@ -21,8 +24,17 @@
     float: left;
 }
 
+.w-40{
+    width: 40%;
+}
 .w-50{
     width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
 }
 .w-80{
     width: 80%;
@@ -32,6 +44,15 @@
     text-align: right;
 }
 
+.text-center{
+    text-align: center;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
 .btn{
     text-decoration: none;
 }
@@ -45,6 +66,8 @@
 
 
 /* Header */
+
+/* Topbar */
 
 .topbar{
     height: 80px;
@@ -67,7 +90,43 @@
     padding: 0 30px;
 }
 
+/* Jumbotron */
 
+.jumbotron{
+    background-color: #B4D0E7;
+    height: 70vh;
+    padding: 20px 30px;
+}
+.jumbotron .container{
+    left: 0;
+    top: 150px;
+}
+.jumbotron .container .content{
+    left: 0;
+    top: 100px;
+}
+.jumbotron img{
+    width: 100%;
+}
+
+.jumbotron h1{
+    font-size: 4em;
+    line-height: 1.5em;
+}
+
+.jumbotron p{
+    padding-right: 40px;
+}
+
+.jumbotron .fa-arrow-down{
+    font-size: 2.5em;
+    padding-top: 25px;
+}
+
+.jumbotron .btn{
+    display: inline-block;
+    margin: 20px auto;
+}
 /* Main */
 
 
