@@ -17,16 +17,55 @@
     margin: 0 auto;
 }
 
+.col{
+    float: left;
+}
+
+.w-50{
+    width: 50%;
+}
 .w-80{
     width: 80%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.btn{
+    text-decoration: none;
+}
+.btn-blue {
+    background-color: #0061FF;
+    color: #fff;
+}
+.btn-small{
+    padding: 7px 15px;
 }
 
 
 /* Header */
 
-.topbar{}
+.topbar{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    vertical-align: middle;
+}
 
-.topbar nav{}
+#logo img{
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.topbar nav.col ul,
+.topbar nav.col ul li{
+    display: inline-block;
+}
+
+.topbar nav ul li{
+    padding: 0 30px;
+}
 
 
 /* Main */
