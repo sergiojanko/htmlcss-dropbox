@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Utils */
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.w-80{
+    width: 80%;
+}
+
+
+/* Header */
+
+.topbar{}
+
+.topbar nav{}
+
+
+/* Main */
+
+
+/* Footer */
