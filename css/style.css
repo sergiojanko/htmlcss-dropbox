@@ -24,6 +24,12 @@ body{
     float: left;
 }
 
+.w-20{
+    width: 20%;
+}
+.w-33{
+    width: 33%;
+}
 .w-40{
     width: 40%;
 }
@@ -153,9 +159,9 @@ main .plans-sect .container>span{
 }
 
 main .plans-sect .container .col{
-    width: calc(100% / 3);
+
 }
-main .plans-sect .container .col .label{
+main .plans-sect .label{
     border: 1px solid #f6f6f6;
     margin: 40px;
 }
@@ -164,7 +170,7 @@ main .plans-sect .container .col h3{
     padding: 20px 10px;
 }
 
-main .plans-sect .container .col  .content {
+main .plans-sect .content {
     border: 1px solid #f6f6f6;
     margin: 40px;
     padding: 20PX;
@@ -203,5 +209,8 @@ main .plans-sect .container .col .features-list li::before{
     color: blue;
 }
 
+main .plans-sect .bottom-row .content{
+
+}
 
 /* Footer */
