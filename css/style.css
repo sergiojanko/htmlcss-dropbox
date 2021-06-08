@@ -50,6 +50,18 @@ img{
     width: 80%;
 }
 
+.h-20{
+    height: 20%;
+}
+.h-50{
+    height: 50%;
+}
+.h-80{
+    height: 80%;
+}
+.h-100{
+    height: 100%;
+}
 
 .mb-60{
     margin-bottom: 60px;
@@ -67,6 +79,32 @@ img{
 .absolute{
     position: absolute;
 }
+
+.bg-green{
+    background-color: #A2D39B;
+}
+.bg-lightblue{
+    background-color: #0093CE;
+}
+.bg-bordeaux{
+    background-color: #61082B;
+}
+.bg-red{
+    background-color: #FF1C1C;
+}
+.bg-darkred{
+    background-color: #D5001F;
+}
+.bg-lightble-2{
+    background-color: #B4D0E7;
+}
+.bg-darkblue{
+    background-color: #0D2481;
+}
+.bg-tellow{
+    background-color: #FFD830;
+}
+
 .btn{
     text-decoration: none;
 }
@@ -250,15 +288,23 @@ top: 30px;
 
 /* Card section */
 
+#card-sect h2{
+    font-size: 2em;
+}
 #card-sect .card{
     padding: 20px;
-    margin: 10px 20px;
+    padding-left: 0;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
 #card-sect .card *{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+#card-sect .card img{
+    padding: 10px;
+}
 #card-sect .card h3{
     font-weight: 800;
 }
@@ -268,9 +314,22 @@ top: 30px;
 }
 
 
+/* Users section */
 
+#users-sect{
+    height: 100vh;
+}
 
+#user-sect .logo-col{
+    height: 100px
+}
 
+#users-sect img{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    height: 10%;
+}
 
 
 /* Footer */
