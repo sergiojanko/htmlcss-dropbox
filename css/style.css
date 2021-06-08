@@ -391,4 +391,32 @@ top: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* FAQ section */
+
+#faq-sect{
+    height: 70vh;
+}
+
+#faq-sect h2{
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+#faq-sect .row .col span{
+    display: block;
+    border-top: 2px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#faq-sect .fa-angle-down{
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 30px;
+    
+}
 /* Footer */
