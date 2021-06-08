@@ -32,7 +32,7 @@ img{
     width: 20%;
 }
 .w-33{
-    width: 33%;
+    width: calc(100% / 3);
 }
 .w-40{
     width: 40%;
@@ -63,6 +63,9 @@ img{
     height: 100%;
 }
 
+.mb-30{
+    margin-bottom: 30px;
+}
 .mb-60{
     margin-bottom: 60px;
 }
@@ -78,6 +81,9 @@ img{
 }
 .absolute{
     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bg-green{
@@ -95,14 +101,17 @@ img{
 .bg-darkred{
     background-color: #D5001F;
 }
-.bg-lightble-2{
+.bg-lightblue-2{
     background-color: #B4D0E7;
 }
 .bg-darkblue{
     background-color: #0D2481;
 }
-.bg-tellow{
+.bg-yellow{
     background-color: #FFD830;
+}
+.bg-lightgray{
+    background-color: #f5f5f5;
 }
 
 .btn{
@@ -213,7 +222,9 @@ main .plans-sect .container>span{
 
 main .plans-sect .label{
     border: 1px solid #f6f6f6;
-    margin: 40px;
+}
+main .plans-sect .container .col {
+padding: 15px;
 }
 main .plans-sect .container .col h3{
     font-size: 2em;
@@ -222,7 +233,6 @@ main .plans-sect .container .col h3{
 
 main .plans-sect .content {
     border: 1px solid #f6f6f6;
-    margin: 40px;
     padding: 20PX;
 }
 main .plans-sect .container .col  .content .plan-info{
@@ -320,16 +330,65 @@ top: 30px;
     height: 100vh;
 }
 
-#user-sect .logo-col{
-    height: 100px
-}
 
-#users-sect img{
+
+#users-sect .col-logo{
+    width: 50%;
+    height: 200px;
+    position: relative;
+}
+#users-sect .col-logo img{
     display: block;
+    width: 100px;
     object-fit: cover;
     object-position: center;
-    height: 10%;
+    line-height: 100%;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+#users-sect .col-center{
+    height: 400px;
+    padding: 10px;
+}
+#users-sect .col-center img{
+    width: 150px;
+    padding: 20px;
+}
 
+#users-sect .col-center hr{
+    margin-left: 10px;
+    width: 10%;
+}
+#users-sect .col-center p{
+    padding: 20px;
+}
+
+#users-sect .col-center span{
+    margin-left: 20px;
+}
+
+#users-sect .bottom-row{
+    height: 400px;
+}
+
+#users-sect .bottom-row .col{
+    height: 400px;
+}
+
+#users-sect .bottom-row .col h2{
+    font-size: 2.5em;
+    color: #61082B;
+    padding-top: 150px;
+}
+
+#users-sect .bottom-row .col .btn{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* Footer */
