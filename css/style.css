@@ -162,6 +162,17 @@ img{
     line-height: 40px;
 }
 
+.radio{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+}
+
+.radio-selected{
+    border: 5px solid blue;
+}
 
 /* Header */
 
