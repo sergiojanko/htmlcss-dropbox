@@ -325,11 +325,9 @@ top: 30px;
 
 
 /* Users section */
-
 #users-sect{
-    height: 100vh;
+    padding: 50px 0;
 }
-
 
 
 #users-sect .col-logo{
@@ -394,10 +392,6 @@ top: 30px;
 
 /* FAQ section */
 
-#faq-sect{
-    height: 70vh;
-}
-
 #faq-sect h2{
     padding: 20px 0;
     margin-bottom: 30px;
@@ -420,3 +414,38 @@ top: 30px;
     
 }
 /* Footer */
+footer{
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+footer ul{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+footer ul div{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 30px 0;
+
+}
+
+footer li{
+    list-style-type: none;
+    padding: 15px 0;
+}
+footer li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer hr{
+margin-top: 50px;
+width: 10%;
+}
+
+footer .lang{
+    color: #f5f5f5;
+}
