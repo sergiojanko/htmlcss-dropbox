@@ -445,6 +445,7 @@ top: 30px;
     margin-bottom: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-weight: 800;
 }
 
 #faq-sect .fa-angle-down{
@@ -453,6 +454,7 @@ top: 30px;
     padding-top: 30px;
     
 }
+
 /* Footer */
 footer{
     background-color: #000;
