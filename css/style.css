@@ -141,6 +141,9 @@ img{
 .btn{
     text-decoration: none;
 }
+.btn:hover{
+    filter: brightness(1.3);
+}
 .btn-blue {
     background-color: #0061FF;
     color: #fff;
@@ -235,13 +238,13 @@ main{
 /**** Plans *****/
 
 
-main .plans-sect h2{
+#plans-sect h2{
     font-size: 3em;
     padding: 30px 0;
 }
 
 
-main .plans-sect .container>span{
+#plans-sect .container>span{
     display: inline-block;
     padding: 20px 0;
     margin-right: 10px;
@@ -249,33 +252,33 @@ main .plans-sect .container>span{
     font-weight: 600;
 }
 
-main .plans-sect .label{
+#plans-sect .label{
     border: 1px solid #f6f6f6;
     padding: 10px;
 }
-main .plans-sect .container .col {
+#plans-sect .container .col {
 padding: 15px;
 }
-main .plans-sect .container .col h3{
+#plans-sect .container .col h3{
     font-size: 2em;
     padding: 20px 10px;
 }
 
-main .plans-sect .content {
+#plans-sect .content {
     border: 1px solid #f6f6f6;
     padding: 20PX;
 }
-main .plans-sect .container .col  .content .plan-info{
+#plans-sect .container .col  .content .plan-info{
     padding: 30px 0;
 }
-main .plans-sect .container .col li{
+#plans-sect .container .col li{
     list-style-type: none;
     font-size: 18px;
     line-height: 24px;
     padding-bottom:  20px;
 }
 
-main .plans-sect .container .col .features-text{
+#plans-sect .container .col .features-text{
     padding: 20px 0;
 }
 
@@ -283,20 +286,20 @@ main .plans-sect .container .col .features-text{
     width: 20%;
     margin-bottom: 20px;
 }
-main .plans-sect .container .col .features-list{
+#plans-sect .container .col .features-list{
     font-size: 20px;
     font-weight: 700;
 }
-main .plans-sect .container .col .features-list span{
+#plans-sect .container .col .features-list span{
 display: block;
 }
 
-main .plans-sect .container .col .features-list li{
+#plans-sect .container .col .features-list li{
     font-size: 14px;
     font-weight: 400;
 }
 
-main .plans-sect .container .col .features-list li::before{
+#plans-sect .container .col .features-list li::before{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f00c";
