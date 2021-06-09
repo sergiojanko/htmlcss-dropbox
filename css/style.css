@@ -145,6 +145,10 @@ img{
     width: 100%;
     line-height: 80px;
     vertical-align: middle;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
 }
 
 #logo img{
@@ -166,6 +170,7 @@ img{
 .jumbotron{
     background-color: #B4D0E7;
     padding: 20px 30px;
+    margin-top: 80px;
 }
 .jumbotron .container{
     left: 0;
