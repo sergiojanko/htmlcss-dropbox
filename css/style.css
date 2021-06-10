@@ -493,6 +493,10 @@ footer li a{
     text-decoration: none;
     color: #fff;
 }
+footer li a:hover{
+    text-decoration: underline;
+
+}
 
 footer hr{
 margin-top: 50px;
